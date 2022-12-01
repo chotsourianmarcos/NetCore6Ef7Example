@@ -2,7 +2,6 @@
 using Data;
 using Entities.Entities;
 using Logic.Logic;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 

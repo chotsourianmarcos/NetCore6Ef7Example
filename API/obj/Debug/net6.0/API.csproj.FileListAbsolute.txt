@@ -30,9 +30,6 @@ C:\Users\USUARIO\Desktop\Code\Proyectos\Example-BackEnd\API\obj\Debug\net6.0\ref
 C:\Users\USUARIO\Desktop\Code\Proyectos\Example-BackEnd\API\obj\Debug\net6.0\API.pdb
 C:\Users\USUARIO\Desktop\Code\Proyectos\Example-BackEnd\API\obj\Debug\net6.0\API.genruntimeconfig.cache
 C:\Users\USUARIO\Desktop\Code\Proyectos\Example-BackEnd\API\obj\Debug\net6.0\ref\API.dll
-C:\Users\USUARIO\Desktop\Code\Proyectos\Example-BackEnd\API\bin\Debug\net6.0\Data.deps.json
-C:\Users\USUARIO\Desktop\Code\Proyectos\Example-BackEnd\API\bin\Debug\net6.0\Data.runtimeconfig.json
-C:\Users\USUARIO\Desktop\Code\Proyectos\Example-BackEnd\API\bin\Debug\net6.0\Data.exe
 C:\Users\USUARIO\Desktop\Code\Proyectos\Example-BackEnd\API\bin\Debug\net6.0\Azure.Core.dll
 C:\Users\USUARIO\Desktop\Code\Proyectos\Example-BackEnd\API\bin\Debug\net6.0\Azure.Identity.dll
 C:\Users\USUARIO\Desktop\Code\Proyectos\Example-BackEnd\API\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
@@ -86,3 +83,12 @@ C:\Users\USUARIO\Desktop\Code\Proyectos\Example-BackEnd\API\bin\Debug\net6.0\Log
 C:\Users\USUARIO\Desktop\Code\Proyectos\Example-BackEnd\API\bin\Debug\net6.0\Entities.pdb
 C:\Users\USUARIO\Desktop\Code\Proyectos\Example-BackEnd\API\bin\Debug\net6.0\Logic.pdb
 C:\Users\USUARIO\Desktop\Code\Proyectos\Example-BackEnd\API\bin\Debug\net6.0\Data.pdb
+C:\Users\USUARIO\Desktop\Code\Proyectos\Example-BackEnd\API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+C:\Users\USUARIO\Desktop\Code\Proyectos\Example-BackEnd\API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\USUARIO\Desktop\Code\Proyectos\Example-BackEnd\API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\USUARIO\Desktop\Code\Proyectos\Example-BackEnd\API\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\USUARIO\Desktop\Code\Proyectos\Example-BackEnd\API\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\USUARIO\Desktop\Code\Proyectos\Example-BackEnd\API\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\USUARIO\Desktop\Code\Proyectos\Example-BackEnd\API\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\USUARIO\Desktop\Code\Proyectos\Example-BackEnd\API\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\USUARIO\Desktop\Code\Proyectos\Example-BackEnd\API\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll

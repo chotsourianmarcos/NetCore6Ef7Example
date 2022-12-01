@@ -13,9 +13,6 @@ C:\Users\USUARIO\Desktop\Code\Proyectos\Example-BackEnd\Console\obj\Debug\net6.0
 C:\Users\USUARIO\Desktop\Code\Proyectos\Example-BackEnd\Console\obj\Debug\net6.0\Console.pdb
 C:\Users\USUARIO\Desktop\Code\Proyectos\Example-BackEnd\Console\obj\Debug\net6.0\Console.genruntimeconfig.cache
 C:\Users\USUARIO\Desktop\Code\Proyectos\Example-BackEnd\Console\obj\Debug\net6.0\ref\Console.dll
-C:\Users\USUARIO\Desktop\Code\Proyectos\Example-BackEnd\Console\bin\Debug\net6.0\Data.deps.json
-C:\Users\USUARIO\Desktop\Code\Proyectos\Example-BackEnd\Console\bin\Debug\net6.0\Data.runtimeconfig.json
-C:\Users\USUARIO\Desktop\Code\Proyectos\Example-BackEnd\Console\bin\Debug\net6.0\Data.exe
 C:\Users\USUARIO\Desktop\Code\Proyectos\Example-BackEnd\Console\bin\Debug\net6.0\Azure.Core.dll
 C:\Users\USUARIO\Desktop\Code\Proyectos\Example-BackEnd\Console\bin\Debug\net6.0\Azure.Identity.dll
 C:\Users\USUARIO\Desktop\Code\Proyectos\Example-BackEnd\Console\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
