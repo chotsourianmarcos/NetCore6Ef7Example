@@ -20,15 +20,17 @@ var serviceProvider = services.BuildServiceProvider();
 try
 {
     Console.WriteLine("Insertando Producto...");
-    var newCurriculum = new ProductItem();
+    var newProduct = new ProductItem();
     var curriculumLogic = new ProductLogic(serviceProvider);
-    newCurriculum.Id = 0;
-    newCurriculum.IdWeb = Guid.NewGuid();
-    newCurriculum.InsertDate = DateTime.Now;
-    newCurriculum.UpdateDate = null;
-    newCurriculum.IsActive = true;
-    newCurriculum.IsPublic = true;
-    curriculumLogic.InsertProductItem(newCurriculum);
+    newProduct.Id = 0;
+    newProduct.IdWeb = Guid.NewGuid();
+    newProduct.InsertDate = DateTime.Now;
+    newProduct.UpdateDate = null;
+    newProduct.IsActive = true;
+    newProduct.IsPublic = true;
+    newProduct.TestMigration = "TestedMigration";
+    newProduct.TestMigrationWithAPI = "TestMigrationWithAPI";
+    curriculumLogic.InsertProductItem(newProduct);
     Console.WriteLine("Producto insertado...");
 }
 catch (Exception e)

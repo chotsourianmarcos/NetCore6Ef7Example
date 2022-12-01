@@ -26,6 +26,8 @@ namespace Entities.Entities
         public bool IsPublic { get; set; }
         private string ProductPassword { get; set; }
         public decimal RawPrice { get; set; }
+        public string TestMigration { get; set; }
+        public string TestMigrationWithAPI { get; set; }
 
         public void UserDiactivation(string inputPassword)
         {

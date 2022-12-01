@@ -45,6 +45,14 @@ namespace Data.Migrations
                     b.Property<decimal>("RawPrice")
                         .HasColumnType("decimal(18,2)");
 
+                    b.Property<string>("TestMigration")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("TestMigrationWithAPI")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<DateTime?>("UpdateDate")
                         .HasColumnType("datetime2");
 
