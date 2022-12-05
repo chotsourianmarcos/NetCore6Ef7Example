@@ -1,4 +1,7 @@
-﻿using Entities.Entities;
+﻿using Data;
+using Entities.Entities;
+using Logic.ILogic;
+using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,9 +10,10 @@ using System.Threading.Tasks;
 
 namespace Logic.Logic
 {
-    public class ProductLogic : BaseContextLogic
+    public class ProductLogic : BaseContextLogic, IProductLogic
     {
-        public ProductLogic(IServiceProvider serviceProvider) : base(serviceProvider) { }
+        public ProductLogic(ServiceContext serviceContext) : base(serviceContext) { }
+        public ProductLogic(ServiceProvider serviceProvider) : base(serviceProvider){ }
         public void InsertProductItem(ProductItem productItem)
         {
             _serviceContext.Products.Add(productItem);

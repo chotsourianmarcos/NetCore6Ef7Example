@@ -4074,11 +4074,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USUARIO\\Desktop\\Code\\Proyectos\\Example-BackEnd\\APIService\\APIService.csproj",
+      "projectUniqueName": "C:\\Users\\USUARIO\\Desktop\\Code\\Repos\\Example-BackEnd\\APIService\\APIService.csproj",
       "projectName": "APIService",
-      "projectPath": "C:\\Users\\USUARIO\\Desktop\\Code\\Proyectos\\Example-BackEnd\\APIService\\APIService.csproj",
+      "projectPath": "C:\\Users\\USUARIO\\Desktop\\Code\\Repos\\Example-BackEnd\\APIService\\APIService.csproj",
       "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USUARIO\\Desktop\\Code\\Proyectos\\Example-BackEnd\\APIService\\obj\\",
+      "outputPath": "C:\\Users\\USUARIO\\Desktop\\Code\\Repos\\Example-BackEnd\\APIService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4095,11 +4095,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\USUARIO\\Desktop\\Code\\Proyectos\\Example-BackEnd\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\USUARIO\\Desktop\\Code\\Proyectos\\Example-BackEnd\\Entities\\Entities.csproj"
+            "C:\\Users\\USUARIO\\Desktop\\Code\\Repos\\Example-BackEnd\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\USUARIO\\Desktop\\Code\\Repos\\Example-BackEnd\\Entities\\Entities.csproj"
             },
-            "C:\\Users\\USUARIO\\Desktop\\Code\\Proyectos\\Example-BackEnd\\Logic\\Logic.csproj": {
-              "projectPath": "C:\\Users\\USUARIO\\Desktop\\Code\\Proyectos\\Example-BackEnd\\Logic\\Logic.csproj"
+            "C:\\Users\\USUARIO\\Desktop\\Code\\Repos\\Example-BackEnd\\Logic\\Logic.csproj": {
+              "projectPath": "C:\\Users\\USUARIO\\Desktop\\Code\\Repos\\Example-BackEnd\\Logic\\Logic.csproj"
             }
           }
         }

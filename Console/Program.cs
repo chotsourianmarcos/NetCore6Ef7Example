@@ -11,7 +11,7 @@ var builder = new ConfigurationBuilder()
                    .SetBasePath(Directory.GetCurrentDirectory())
                    .AddJsonFile("appsettings.json", false, true);
 var config = builder.Build();
-var connectionString = config.GetConnectionString("CVContext");
+var connectionString = config.GetConnectionString("ServiceContext");
 
 var services = new ServiceCollection();
 services = ServiceContext.AddDbContextServiceFromConnString(services, connectionString);
