@@ -3,30 +3,31 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Security.Cryptography;
+using Security.IServices;
 
 namespace Security.Services
 {
-    public class PasswordService
+    public class PasswordService : IPasswordService
     {
         public bool IsValidPassword(string password)
         {
             //not implemented
             return true;
         }
-        public string GenerateNewRandomPasswordEncrypted()
+        public string GenerateNewRandomPassword()
         {
             //not implemented
             return "";
         }
-        private string EncryptPassword(string password)
+        public byte[] EncryptPassword(string password)
         {
-            //not implemented
-            return "";
-        }
-        private string DecryptPassword(string encryptedPassword)
-        {
-            //not implemented
-            return "";
+            SHA256 sha256 = SHA256.Create();
+            byte[] hashValue;
+            UTF8Encoding objUtf8 = new UTF8Encoding();
+            hashValue = sha256.ComputeHash(objUtf8.GetBytes(password));
+
+            return hashValue;
         }
         public bool IsCorrectPassword(string loginName, string password)
         {

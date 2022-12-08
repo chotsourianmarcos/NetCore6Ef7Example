@@ -8,5 +8,6 @@ namespace Security.IServices
 {
     public interface ITokenService
     {
+        //not implemented
     }
 }
