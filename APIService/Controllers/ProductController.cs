@@ -21,5 +21,10 @@ namespace APIService.Controllers
         {
             return _productService.InsertProduct(productItem);
         }
+
+        //DeactivateProduct
+
+        //ModifyProduct
+
     }
 }

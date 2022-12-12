@@ -2,5 +2,10 @@
 {
     public class UserController
     {
+        //InsertUser
+
+        //DeactivateUser
+
+        //ModifyUser
     }
 }
