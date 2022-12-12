@@ -10,7 +10,6 @@ namespace Security.IServices
     {
         bool IsValidPassword(string password);
         string GenerateNewRandomPassword();
-        byte[] EncryptPassword(string password);
         bool IsCorrectPassword(string loginName, string password);
     }
 }

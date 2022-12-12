@@ -295,3 +295,5 @@ C:\Users\Usuario\Desktop\Code\Repos\NetCore6Ef7Example\APIService\obj\Debug\net6
 C:\Users\Usuario\Desktop\Code\Repos\NetCore6Ef7Example\APIService\obj\Debug\net6.0\APIService.pdb
 C:\Users\Usuario\Desktop\Code\Repos\NetCore6Ef7Example\APIService\obj\Debug\net6.0\APIService.genruntimeconfig.cache
 C:\Users\Usuario\Desktop\Code\Repos\NetCore6Ef7Example\APIService\obj\Debug\net6.0\ref\APIService.dll
+C:\Users\Usuario\Desktop\Code\Repos\NetCore6Ef7Example\APIService\bin\Debug\net6.0\Security.dll
+C:\Users\Usuario\Desktop\Code\Repos\NetCore6Ef7Example\APIService\bin\Debug\net6.0\Security.pdb

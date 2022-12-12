@@ -20,7 +20,7 @@ namespace Security.Services
             //not implemented
             return "";
         }
-        public byte[] EncryptPassword(string password)
+        private byte[] EncryptPassword(string password)
         {
             SHA256 sha256 = SHA256.Create();
             byte[] hashValue;
@@ -29,10 +29,16 @@ namespace Security.Services
 
             return hashValue;
         }
-        public bool IsCorrectPassword(string loginName, string password)
+        public bool IsCorrectPassword(string encryptedPassword, string password)
         {
-            //not implemented
-            return true;
+            if(encryptedPassword == EncryptPassword(password).ToString())
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
     }
 }

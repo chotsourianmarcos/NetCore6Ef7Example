@@ -26,10 +26,6 @@ try
     newProduct.IdWeb = Guid.NewGuid();
     newProduct.InsertDate = DateTime.Now;
     newProduct.UpdateDate = null;
-    newProduct.IsActive = true;
-    newProduct.IsPublic = true;
-    newProduct.TestMigration = "TestedMigration";
-    newProduct.TestMigrationWithAPI = "TestMigrationWithAPI";
     curriculumLogic.InsertProductItem(newProduct);
     Console.WriteLine("Producto insertado...");
 }

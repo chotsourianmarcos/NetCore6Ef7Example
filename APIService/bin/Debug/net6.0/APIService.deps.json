@@ -836,7 +836,8 @@
       "Entities/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "7.0.0",
-          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0"
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0",
+          "Security": "1.0.0"
         },
         "runtime": {
           "Entities.dll": {}
@@ -849,6 +850,11 @@
         },
         "runtime": {
           "Logic.dll": {}
+        }
+      },
+      "Security/1.0.0": {
+        "runtime": {
+          "Security.dll": {}
         }
       }
     }
@@ -1430,6 +1436,11 @@
       "sha512": ""
     },
     "Logic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Security/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

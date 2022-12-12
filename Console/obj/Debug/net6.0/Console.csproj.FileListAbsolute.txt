@@ -250,3 +250,5 @@ C:\Users\Usuario\Desktop\Code\Repos\NetCore6Ef7Example\Console\obj\Debug\net6.0\
 C:\Users\Usuario\Desktop\Code\Repos\NetCore6Ef7Example\Console\obj\Debug\net6.0\Console.pdb
 C:\Users\Usuario\Desktop\Code\Repos\NetCore6Ef7Example\Console\obj\Debug\net6.0\Console.genruntimeconfig.cache
 C:\Users\Usuario\Desktop\Code\Repos\NetCore6Ef7Example\Console\obj\Debug\net6.0\ref\Console.dll
+C:\Users\Usuario\Desktop\Code\Repos\NetCore6Ef7Example\Console\bin\Debug\net6.0\Security.dll
+C:\Users\Usuario\Desktop\Code\Repos\NetCore6Ef7Example\Console\bin\Debug\net6.0\Security.pdb

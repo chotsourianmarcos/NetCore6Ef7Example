@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Security.IServices;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -9,42 +10,31 @@ namespace Entities.Entities
 {
     public class ProductItem
     {
-        public ProductItem()
-        {
-            this.ProductPassword = Guid.NewGuid().ToString();
+        private IPasswordService _passwordService;
+        public ProductItem() {
+            IsActive = true;
+            IsPublic = true;
         }
-        public ProductItem(int ownerID)
+        public ProductItem(IPasswordService passwordService)
         {
-            this.ProductPassword = Guid.NewGuid().ToString();
+            _passwordService = passwordService;
+            IsActive= true;
+            IsPublic= true; 
         }
-
         public int Id { get; set; }
         public Guid IdWeb { get; set; }
+        public UserItem OwnerUser { get; set; }
         public DateTime InsertDate { get; set; }
         public DateTime? UpdateDate { get; set; }
-        public bool IsActive { get; set; }
-        public bool IsPublic { get; set; }
-        private string ProductPassword { get; set; }
+        public bool IsActive { get; private set; }
+        public bool IsPublic { get; private set; }
         public decimal RawPrice { get; set; }
-        public string TestMigration { get; set; }
-        public string TestMigrationWithAPI { get; set; }
 
-        public void UserDiactivation(string inputPassword)
+        public void ProductDiactivation(string password)
         {
-            if (inputPassword == this.ProductPassword)
+            if (_passwordService.IsCorrectPassword(OwnerUser.UserName, password))
             {
                 this.IsActive = false;
-            }
-            else
-            {
-                throw new ValidationException();
-            }
-        }
-        public void ChangeProductPassword(string productCurrentPassword, string productNewPassword)
-        {
-            if (productCurrentPassword == this.ProductPassword)
-            {
-                this.ProductPassword = productNewPassword;
             }
             else
             {

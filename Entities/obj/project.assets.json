@@ -1046,6 +1046,16 @@
             "rid": "win"
           }
         }
+      },
+      "Security/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Security.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Security.dll": {}
+        }
       }
     }
   },
@@ -3215,12 +3225,18 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Security/1.0.0": {
+      "type": "project",
+      "path": "../Security/Security.csproj",
+      "msbuildProject": "../Security/Security.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.EntityFrameworkCore >= 7.0.0",
-      "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.0"
+      "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.0",
+      "Security >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3254,7 +3270,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Usuario\\Desktop\\Code\\Repos\\NetCore6Ef7Example\\Security\\Security.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\Desktop\\Code\\Repos\\NetCore6Ef7Example\\Security\\Security.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

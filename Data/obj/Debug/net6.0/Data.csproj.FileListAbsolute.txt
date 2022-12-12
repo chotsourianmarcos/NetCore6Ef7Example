@@ -49,3 +49,5 @@ C:\Users\Usuario\Desktop\Code\Repos\NetCore6Ef7Example\Data\obj\Debug\net6.0\ref
 C:\Users\Usuario\Desktop\Code\Repos\NetCore6Ef7Example\Data\obj\Debug\net6.0\Data.pdb
 C:\Users\Usuario\Desktop\Code\Repos\NetCore6Ef7Example\Data\obj\Debug\net6.0\Data.genruntimeconfig.cache
 C:\Users\Usuario\Desktop\Code\Repos\NetCore6Ef7Example\Data\obj\Debug\net6.0\ref\Data.dll
+C:\Users\Usuario\Desktop\Code\Repos\NetCore6Ef7Example\Data\bin\Debug\net6.0\Security.dll
+C:\Users\Usuario\Desktop\Code\Repos\NetCore6Ef7Example\Data\bin\Debug\net6.0\Security.pdb

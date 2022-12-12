@@ -49,3 +49,5 @@ C:\Users\Usuario\Desktop\Code\Repos\NetCore6Ef7Example\Logic\obj\Debug\net6.0\Lo
 C:\Users\Usuario\Desktop\Code\Repos\NetCore6Ef7Example\Logic\obj\Debug\net6.0\refint\Logic.dll
 C:\Users\Usuario\Desktop\Code\Repos\NetCore6Ef7Example\Logic\obj\Debug\net6.0\Logic.pdb
 C:\Users\Usuario\Desktop\Code\Repos\NetCore6Ef7Example\Logic\obj\Debug\net6.0\ref\Logic.dll
+C:\Users\Usuario\Desktop\Code\Repos\NetCore6Ef7Example\Logic\bin\Debug\net6.0\Security.dll
+C:\Users\Usuario\Desktop\Code\Repos\NetCore6Ef7Example\Logic\bin\Debug\net6.0\Security.pdb

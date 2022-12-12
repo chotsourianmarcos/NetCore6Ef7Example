@@ -1283,13 +1283,24 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "7.0.0",
-          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0"
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0",
+          "Security": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Entities.dll": {}
         },
         "runtime": {
           "bin/placeholder/Entities.dll": {}
+        }
+      },
+      "Security/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Security.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Security.dll": {}
         }
       }
     }
@@ -3805,6 +3816,11 @@
       "type": "project",
       "path": "../Entities/Entities.csproj",
       "msbuildProject": "../Entities/Entities.csproj"
+    },
+    "Security/1.0.0": {
+      "type": "project",
+      "path": "../Security/Security.csproj",
+      "msbuildProject": "../Security/Security.csproj"
     }
   },
   "projectFileDependencyGroups": {
